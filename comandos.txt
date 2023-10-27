@@ -1,0 +1,71 @@
+git branch
+
+git switch -c deveplop
+git switch sprint15032022
+git switch feature/v-1.5-entregable
+git switch release/13-07-2022
+git branch -a
+
+-- en éste punto realizar los cambios de configuración y de Scripts de BD
+
+# Agregando los cambios al branch (rama) deveplop
+git add .  
+
+# Agregandoviewndo las diferencias con el original
+git diff --cached
+
+#git checkout -b branch_name
+
+#git merge
+
+#git push origin HEAD
+
+git commit -m "Cambios en scripts BD aplica para QA / PROD"
+git commit -m "Backend final Firma Requerimientos"
+git commit -m "Cambios para soportar cotizaciones masivas"
+
+git remote
+
+# Colocar los cambios en la rama develop del repositorio remoto
+git push origin master
+git push origin deveplop
+git push origin sprint15032022
+
+
+Bajar del Git (actualizar)
+git fetch
+Lista de modificaciones
+git status 
+Aplica cambios que ha traido
+git pull 
+
+Descartar mis cambios locales
+git reset --hard
+
+Realizar en el BitBucket el Pull Request
+Llevar d ela rama deveplop al master
+
+git checkout sprint15032022
+
+--- PRACTICA ----
+1. Ver el status de los cambios
+git status
+
+2. Ver en que rama estoy
+git branch
+
+3. Agregar todos los cambios
+git add .
+
+4. Quiero ver el status d elos cambios
+git diff --cached
+
+5. Comprometer mis cambios
+git commit -m "Linea base"
+
+6. Llevarlo al repositorio a una rama (develop)
+git push origin develop
+
+7. Fusionar con el main (rama principal)
+7.1 Crear un pull request
+7.2 Hacer una fusión (Merge) Lo tienen que autorizar
